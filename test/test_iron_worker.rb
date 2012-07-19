@@ -180,7 +180,7 @@ class IronWorkerTests < TestBase
     payload = "webhooked!"
 
     # Now we hit the webhook
-    @uber_client = Rest::Client.new
+    @uber_client = Rest::Client.new(:gem => :rest_client)
     url = "#{IronWorker.service.base_url}/projects/#{@project_id}/tasks/webhook?code_name=#{code_name}&oauth=#{@token}"
     resp = @uber_client.post(url, {:body => payload})
     p resp
