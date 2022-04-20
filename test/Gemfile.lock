@@ -29,10 +29,7 @@ GEM
       activesupport (>= 3.2.0)
     concur (0.1.2)
       em-http-request
-      em-http-request
       eventmachine
-      eventmachine
-      faraday
       faraday
     cookiejar (0.3.0)
     domain_name (0.5.3)
@@ -66,7 +63,8 @@ GEM
       nokogiri (~> 1.5.0)
       ruby-hmac
     formatador (0.2.3)
-    git (1.2.5)
+    git (1.11.0)
+      rchardet (~> 1.8)
     hashie (1.2.0)
     http_connection (1.4.1)
     http_parser.rb (0.5.3)
@@ -77,12 +75,8 @@ GEM
       iron_core (>= 0.2.0)
     iron_worker (2.3.14)
       bundler
-      bundler
-      rest
       rest
       rest-client
-      rest-client
-      zip
       zip
     jeweler2 (2.0.9)
       git (>= 1.2.5)
@@ -134,6 +128,7 @@ GEM
       multi_json (~> 1.0)
       signature (~> 0.1.2)
     rack (1.4.1)
+    rchardet (1.8.0)
     rest (2.0.0)
       net-http-persistent
       rest-client (>= 0.3.0)
@@ -195,3 +190,6 @@ DEPENDENCIES
   typhoeus
   uber_config
   zip
+
+BUNDLED WITH
+   2.1.4
