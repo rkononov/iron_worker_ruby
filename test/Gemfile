@@ -21,7 +21,7 @@ group :test do
   gem 'mongoid_i18n'
   gem 'signature'
   gem 'pusher'
-  gem 'carrierwave'
+  gem 'carrierwave', '>= 2.2.5'
   gem 'aws-s3'
   gem 'mechanize'
   gem 'mail'
