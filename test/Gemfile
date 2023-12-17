@@ -13,7 +13,7 @@ group :test do
   gem 'typhoeus'
   gem 'uber_config'
 
-  gem 'simple_record'
+  gem 'simple_record', '>= 4.0.0', '>= 4.0.0'
   gem 'activerecord'
   gem 'activesupport'
   gem 'simple_record'
