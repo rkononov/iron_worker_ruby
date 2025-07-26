@@ -23,7 +23,7 @@ group :test do
   gem 'pusher'
   gem 'carrierwave'
   gem 'aws-s3'
-  gem 'mechanize'
+  gem 'mechanize', '>= 2.6.0', '>= 2.6.0'
   gem 'mail'
   gem 'timecop'
   gem 'fog'
