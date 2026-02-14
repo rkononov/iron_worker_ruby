@@ -13,7 +13,7 @@ group :test do
   gem 'typhoeus'
   gem 'uber_config'
 
-  gem 'simple_record'
+  gem 'simple_record', '>= 4.0.0', '>= 4.0.0'
   gem 'activerecord'
   gem 'activesupport'
   gem 'simple_record'
@@ -33,6 +33,6 @@ group :test do
   gem 'iron_mq'
   gem 'prawn'
   gem 'pdf-reader'
-  gem 'concur'
+  gem 'concur', '>= 1.0.0'
   gem 'mechanize'
 end
